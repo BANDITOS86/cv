@@ -25,7 +25,7 @@
 }
 
 .about__description--top {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-left: 50px;
   font-size: 18px;
   font-weight: 400;
@@ -39,4 +39,8 @@
   font-weight: 400;
   line-height: 24px;
   color: var(--color-grey);
+}
+
+.about__description--bottom:not(:last-child) {
+  margin-bottom: 10px;
 }
